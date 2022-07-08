@@ -14,4 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on [HotPEToolBoxs](https://www.hotpe.top/)
+- 🌱 I’m currently learning web development
+- 🤔 I’m looking for help with [无忧](http://bbs.c3.wuyou.net/home.php?mod=space&uid=831301)
+- 📫 How to reach me: [Blog](https://blog.hotpe.top/)
+
 ![https://github.com/VirtualHotBar/](https://github-readme-stats.vercel.app/api?username=VirtualHotBar&show_icons=true )
