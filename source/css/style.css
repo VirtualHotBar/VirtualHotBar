@@ -1,0 +1,45 @@
+/* 按钮美化 */
+.button {
+    background-color: #2DBAE8; 
+    border: none;
+    color: white;
+    padding: 7px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 4px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 70px;
+
+    background-color: var(--board-bg-color); 
+    color: var(--text-color); 
+    border: 2px solid #2DBAE8;
+}
+.button:hover {
+    background-color: #2DBAE8;
+    color: white;
+}
+
+/* 链接美化 */
+.class-link{
+  color: #2DBAE8; 
+  text-decoration: none !important;
+  transition: opacity 0.1s ease;
+}
+.class-link:hover {
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+.class-link:visited {
+  text-decoration: none !important;
+}
+.class-link:active {
+  text-decoration: none !important;
+}
+.class-link[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
