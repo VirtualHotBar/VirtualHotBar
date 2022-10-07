@@ -490,7 +490,7 @@ index:
       # 请求地址
       # Request url
       #https://developer.hitokoto.cn/
-      url: "https://v1.hitokoto.cn/?c=j"
+      url: "https://v1.hitokoto.cn/?c=d"
 
       # 请求方法
       # Request method
