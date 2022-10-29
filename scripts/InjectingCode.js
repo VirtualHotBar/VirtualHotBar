@@ -35,7 +35,7 @@ hexo.extend.injector.register('body_end', `<footer style="background: var(--boar
         <a href="https://icp.gov.moe/?keyword=20220247" target="_blank">萌ICP备20220247号</a>
         <br/>
         
-        本网站由 <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">又拍云</a> 提供CDN加速/云存储服务
+        本网站由 <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" class="class-link">又拍云</a> 提供CDN加速/云存储服务
         <br/>
         <a id="RunTime" style=""></a>
 </div>
