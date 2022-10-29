@@ -34,6 +34,9 @@ hexo.extend.injector.register('body_end', `<footer style="background: var(--boar
 
         <a href="https://icp.gov.moe/?keyword=20220247" target="_blank">萌ICP备20220247号</a>
         <br/>
+        
+        <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank"><img src="http://hotpic.myzwq.com/i/2022/10/29/635cd621ca652.png"></a>
+        <br/>
         <a id="RunTime" style=""></a>
 </div>
 
