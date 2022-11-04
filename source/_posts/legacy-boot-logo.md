@@ -9,7 +9,7 @@ date: 2022-08-03 15:29:07
 
 ### 效果
 
-![1659507070662.png](https://sh2.mouyjy.com/2022/08/03/62ea1181ee048.png "1659507070662.png")
+![1659507070662.png](https://s1.ax1x.com/2022/11/04/xL5TIA.png)
 
 实现于HotPE2.4Final，体验链接：[https://www.hotpe.top/](https://www.hotpe.top/)
 
@@ -22,10 +22,10 @@ date: 2022-08-03 15:29:07
 #### 1.提取原版bootres.dll文件中的logo文件
 
 找到启动分区下的\\Boot\\Resources\\bootres.dll文件，然后用7zip解压。如果权限不够就在PE里操作。
-![1659508030129.png](https://sh2.mouyjy.com/2022/08/03/62ea154047d34.png "1659508030129.png") 
+![1659508030129.png](https://s1.ax1x.com/2022/11/04/xLIry8.md.png) 
 
 解压后就看到开机Logo了
- ![1659508340415.png](https://sh2.mouyjy.com/2022/08/03/62ea1677c470b.png "1659508340415.png")
+ ![1659508340415.png](https://s1.ax1x.com/2022/11/04/xLIcwQ.md.png)
 
 #### 2.修改图片
 
@@ -68,4 +68,4 @@ Ctrl + S键保存
 将系统的"禁用数字签名验证"和"Win8 Metr启动界面"启用，保存
  ![](https://i.hotpe.top/img/202208031521145.png) 
 
-大功告成 感谢SYSTEM-RAMOS-ZDY提供技术支持
+大功告成 
