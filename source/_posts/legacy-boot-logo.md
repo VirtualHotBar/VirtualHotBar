@@ -4,12 +4,13 @@ tags:
   - logo修改
 categories:
   - - 教程
+abbrlink: 49722
 date: 2022-08-03 15:29:07
 ---
 
 ### 效果
 
-![1659507070662.png](https://s1.ax1x.com/2022/11/04/xL5TIA.png)
+![](https://s1.ax1x.com/2022/11/04/xL5TIA.png)
 
 实现于HotPE2.4Final，体验链接：[https://www.hotpe.top/](https://www.hotpe.top/)
 
@@ -22,15 +23,15 @@ date: 2022-08-03 15:29:07
 #### 1.提取原版bootres.dll文件中的logo文件
 
 找到启动分区下的\\Boot\\Resources\\bootres.dll文件，然后用7zip解压。如果权限不够就在PE里操作。
-![1659508030129.png](https://s1.ax1x.com/2022/11/04/xLIry8.md.png) 
+![](https://s1.ax1x.com/2022/11/04/xLIry8.md.png) 
 
 解压后就看到开机Logo了
- ![1659508340415.png](https://s1.ax1x.com/2022/11/04/xLIcwQ.md.png)
+ ![](https://s1.ax1x.com/2022/11/04/xLIcwQ.md.png)
 
 #### 2.修改图片
 
 修改logo图片，注意图片的格式和大小，用图画或ps都行。修改后的效果：
-[![vVzsTx.png](https://s1.ax1x.com/2022/08/03/vVzsTx.png)](https://imgtu.com/i/vVzsTx)
+![](https://s1.ax1x.com/2022/08/03/vVzsTx.png)
 
 #### 3.将logo图片打包为bin文件
 
@@ -68,4 +69,4 @@ Ctrl + S键保存
 将系统的"禁用数字签名验证"和"Win8 Metr启动界面"启用，保存
  ![](https://i.hotpe.top/img/202208031521145.png) 
 
-大功告成 
+大功告成 ！
