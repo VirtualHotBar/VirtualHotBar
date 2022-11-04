@@ -857,11 +857,6 @@
     "hexo-front-matter" "^1.0.0"
     "hexo-fs" "^3.1.0"
 
-"hexo-abbrlink2@^1.0.2":
-  "integrity" "sha512-sXMQ451lPj3cF4ywxmJHtZHPHj/ye5+FbRwMdR2yuIoXtzYVFt8iCLhmsYcMEJsyrfBamwGR/lrOqJ4atq06XA=="
-  "resolved" "https://registry.npmmirror.com/hexo-abbrlink2/-/hexo-abbrlink2-1.0.2.tgz"
-  "version" "1.0.2"
-
 "hexo-cli@^4.3.0":
   "integrity" "sha512-lr46h1tK1RNQJAQZbzKYAWGsmqF5DLrW6xKEakqv/o9JqgdeempBjIm7HqjcZEUBpWij4EO65X6YJiDmT9LR7g=="
   "resolved" "https://registry.npmmirror.com/hexo-cli/-/hexo-cli-4.3.0.tgz"
