@@ -22,3 +22,6 @@ Ventoy的安装工具Ventoy2Disk没有提供命令行静默安装功能，而网
 ### 下载
 
 [直链下载](https://pan.mouyjy.com/api/v3/file/source/5874/CmdSetupVentoy.zip?sign=cBZs2pdnQ7snMTYBGJ3uIPvhvHFIjIrqK8ldfNMRvyw%3D%3A0)         [123云盘](https://www.123pan.com/s/KuQrVv-bKni)
+
+### 腾讯云开发者社区声明
+我的博客即将同步至腾讯云开发者社区，邀请大家一同入驻：https://cloud.tencent.com/developer/support-plan?invite_code=1njuf25d49l5j
