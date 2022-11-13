@@ -3,14 +3,21 @@ title: 文字图片生成器 HotTextPicture
 tags: []
 categories:
   - - 原创软件
+abbrlink: 2608
 date: 2021-11-27 11:36:07
+cover: https://p2.myzwq.com/i/2022/11/13/637062fce0ddb.png
 ---
+
+<a></a>
+<!--more-->
 
 # HotTextPicture v1.1
 
 ## 介绍
 
 HotTextPicture是一个小玩具，生成用带颜色的指定字符组成图片。可以用来表白或搞基友，祝你早日实现“面向对象编程”！
+
+
 
 ## 下载
 

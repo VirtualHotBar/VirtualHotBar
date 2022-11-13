@@ -6,11 +6,12 @@ categories:
   - - 教程
 abbrlink: 49722
 date: 2022-08-03 15:29:07
+cover: https://s1.ax1x.com/2022/11/04/xL5TIA.png
 ---
 
-### 效果
+<a></a>
+<!--more-->
 
-![](https://s1.ax1x.com/2022/11/04/xL5TIA.png)
 
 实现于HotPE2.4Final，体验链接：[https://www.hotpe.top/](https://www.hotpe.top/)
 

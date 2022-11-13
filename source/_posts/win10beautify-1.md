@@ -3,12 +3,18 @@ title: 【系统美化】任务栏 图标居中 如何设置教程
 tags: []
 categories:
   - - 教程
+abbrlink: 21095
 date: 2020-08-11 23:31:26
+cover: https://p2.myzwq.com/i/2022/11/13/637061ce3ad2f.png
 ---
 
-![](https://i.hotpe.top/i/2022/05/01/12kikxl-0.webp) 
+<a></a>
+<!--more-->
+
+
 **这是Win10美化教程的第2篇文章，第一篇（任务栏 透明 毛玻璃）：cv7101164**
-<!-- more -->
+
+
 
 # 先看效果：
 

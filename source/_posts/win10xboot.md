@@ -3,12 +3,14 @@ title: 【系统美化】启用Win10X开机动画
 tags: []
 categories:
   - - 教程
+abbrlink: 42091
 date: 2022-05-14 09:58:38
+cover: https://p2.myzwq.com/i/2022/11/13/6370606681f97.gif
 ---
+<a></a>
+<!--more-->
 
-### 效果
 
-![](https://sh2.mouyjy.com/2022/05/14/627f08ee0347e.gif "221440u3isqfsseoqf9o9r.gif")
 
 ### 要求
 

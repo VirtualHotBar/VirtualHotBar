@@ -3,16 +3,24 @@ title: 如何Win11绕过硬件限制，强制升级！！TPM CPU UEFI
 tags: []
 categories:
   - - 教程
+abbrlink: 36290
 date: 2021-10-23 11:42:45
+cover: https://p2.myzwq.com/i/2022/11/13/63705fec82839.png
 ---
+<a></a>
+<!--more-->
+Windows 11 升级绕过硬件限制强制升级.
 
-**​![](https://i.hotpe.top/i/2022/05/02/iykav2-0.jpg)** 
-  **10月5日Win11正式发布了！** 
-**Win11提高了升级的门槛，需要电脑支持UEFI安全启动，支持TPM1.2****！
-** **在CPU方面，需要英特尔8代CPU、AMD锐龙2000系列起步！
-** ![](https://i.hotpe.top/i/2022/05/02/ipilub-0.webp)
- **虽然升级门槛高，但是不要气馁可以强制升级！
-** **首先要下载Windows11的ISO镜像文件** 
+
+
+![](https://i.hotpe.top/i/2022/05/02/iykav2-0.jpg)
+
+10月5日Win11正式发布了！
+Win11提高了升级的门槛，需要电脑支持UEFI安全启动，支持TPM1.2！
+在CPU方面，需要英特尔8代CPU、AMD锐龙2000系列起步！
+![](https://i.hotpe.top/i/2022/05/02/ipilub-0.webp)
+虽然升级门槛高，但是不要气馁可以强制升级！
+首先要下载Windows11的ISO镜像文件
 
 ## 方法1：
 

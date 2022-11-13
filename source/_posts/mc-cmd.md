@@ -4,16 +4,22 @@ tags:
   - mc
 categories:
   - - 分享
+abbrlink: 7897
 date: 2020-03-24 22:27:03
+cover: https://p2.myzwq.com/i/2022/11/13/6370623da69b0.png
 ---
 
-![](https://i.hotpe.top/i/2022/05/01/10sde3h-0.webp)
+<a></a>
+<!--more-->
+
 
 ## 最常用：
 
 生存：/gamemode 0 
 创造：/gamemode 1 
 冒险：/gamemode 2 
+
+
 旁观 （旧版本不能使用）：/gamemode 3   
 死亡不掉落指令：/gamerule keepInventory true   
 和平：/difficulty 0 

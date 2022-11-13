@@ -1,12 +1,6 @@
 ---
 title: 关于
-layout: about
-id: '23'
-tags: []
-categories:
-  - - uncategorized
-date: 2022-04-30 00:06:42
-comment: 'twikoo'
+comments: false
 ---
 
 ### 关于我

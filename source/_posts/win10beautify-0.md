@@ -4,14 +4,17 @@ tags: []
 id: '72'
 categories:
   - - 教程
+abbrlink: 541
 date: 2020-08-09 23:23:49
+cover: https://p2.myzwq.com/i/2022/11/13/6370620a000d6.png
 ---
 
-![](https://i.hotpe.top/i/2022/05/01/12bssss-0.webp) 
+<a></a>
+<!--more-->
+
 
 实现Win10任务栏 透明 毛玻璃 效果有两种方法：TranslucentTB，StartIsBack（推荐第二种）
 
-<!-- more -->
 
 ### 第一种
 用TranslucentTB这款应用实现（功能少，轻量化）

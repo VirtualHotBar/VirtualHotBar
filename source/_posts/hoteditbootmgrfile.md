@@ -1,24 +1,26 @@
 ---
-title: HotEditBootmgrFile——最简修改BCD路径v1.2,\boot\bcd,启动修改
+title: 'HotEditBootmgrFile v1.2——最简修改BCD路径v1.2,\boot\bcd,启动修改'
 tags: []
 categories:
   - - 原创软件
+abbrlink: 14714
 date: 2021-11-27 11:55:13
+#cover: https://i.hotpe.top/i/2022/05/02/j0x88c-0.jpg
 ---
 
-![](https://i.hotpe.top/i/2022/05/02/j0x88c-0.jpg)
 
-# HotEditBootmgrFile v1.2
-
-# 介绍
+### 介绍
 
 HotEditBootmgrFile是由VirtualHotBar打造的一个修改Bootmgr文件中BCD路径的小工具，实现了HotPE文件结构的个性化。
 
-# 下载
+<a></a>
+<!--more-->
+
+### 下载
 
 https://www.lanzoui.com/itAUtwyjn2f
 
-# 界面
+### 界面
 
 ![](https://i.hotpe.top/i/2022/05/02/j07id3-0.webp) 
 ### 结构 
@@ -26,14 +28,14 @@ https://www.lanzoui.com/itAUtwyjn2f
  正常使用打开HotEditBootmgrFile.exe就行。
  HotEditBootmgrFile.dll是主要文件，HotEditBootmgrFile.exe是GUI调用其中的HotEditBootmgrFile函数。
 
-# 调用
+### 调用
 
 HotEditBootmgrFile函数的参数：
  HotEditBootmgrFile(str,str,str) 第一个参数是BCD所在文件夹，如“\\Boot\\BCD”中的“Boot”。
  第二个参数是BCD文件名，如“\\Boot\\BCD”中的“BCD”。 
 第二个参数是生成完成后写出Bootmgr文件的路径，如“D:\\Bootmgr”。
 
-# Python调用示例
+### Python调用示例
 
 注意：请用32位的Python
  `from ctypes import *`
@@ -42,7 +44,7 @@ HotEditBootmgrFile函数的参数：
  `#打印返回结果，1=生成成功`
  `print(res)`
 
-# 运行结果
+### 运行结果
 
 ![](https://i.hotpe.top/i/2022/05/02/j1hm2r-0.png)
 

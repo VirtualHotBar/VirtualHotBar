@@ -9,12 +9,13 @@ tags:
   - 系统
 categories:
   - - 原创软件
+abbrlink: 2047
 date: 2022-01-22 00:21:12
+#cover: https://p2.myzwq.com/i/2022/11/13/6370629e8af87.png
 ---
 
-![](https://www.hotpe.top/wp-content/uploads/2022/01/HotWinNTSetup.png)
 
- 
+
 
 **写在前面**
 
@@ -23,6 +24,9 @@ date: 2022-01-22 00:21:12
 Hot WindowsNT Setup是由VirtualHotBar打造的Win7/8/10/11安装工具，追求强大、纯净、轻巧。
 
 可以在PE系统中下载镜像，无人值守安装使安装系统变得更方便。支持离线注入驱动， HotPE和Hot WindowsNT Setup保证绝对不会做出流氓行为！为了保证安装系统的纯净，请到MSDN或微软官方下载原汁原味的系统镜像进行安装！
+
+<a></a>
+<!--more-->
 
 从Hot WindowsNT Setup下载的系统镜像也是MSDN的原版镜像！
 
