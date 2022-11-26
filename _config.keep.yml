@@ -257,8 +257,8 @@ lazyload:
 # CDN
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: false       # Option values: true | false
-  provider: jsdelivr  # Option values: jsdelivr | unpkg
+  enable: true       # Option values: true | false
+  provider: unpkg  # Option values: jsdelivr | unpkg
 
 # ---------------------------------------------------------------------------------------
 # PJAX
