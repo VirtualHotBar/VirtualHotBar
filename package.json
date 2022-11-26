@@ -28,6 +28,7 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-tag-bootstrap": "^0.2.2",
+    "hexo-theme-redefine": "^0.3.3",
     "hexo-wordcount": "^6.0.1"
   }
 }
