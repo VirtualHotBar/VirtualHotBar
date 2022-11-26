@@ -7,15 +7,13 @@ document.getElementsByTagName("footer")[0].innerHTML=`
         <br/>
         本网站由 <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" class="class-link"  rel="noopener" >又拍云</a> 提供CDN加速/云存储服务
         <br/>       
-        本网站由 <a href="https://www.lingshulian.com/" target="_blank" class="class-link"  rel="noopener" >棱束链</a> 提供高速直链服务
-        <br/>
         <span id="RunTime" style=""></span>
         <br/>
     
         <span >访问人数<span id="busuanzi_value_site_uv"></span></span>
         <span >总访问量&nbsp;<span id="busuanzi_value_site_pv"></span></span>
 
-        <div style="border-top: 1px solid rgba(0, 0, 0, 0.1);padding: 10px 10px 10px;text-align: center;">
+        <div style="border-top: 1px solid rgba(0, 0, 0, 0.1);padding: 10px 10px 10px;">
                 © 2019-Present <a href="https://www.loser.plus/" target="_blank" class="class-link"  rel="noopener" >VirtualHotBar</a>
         </div>
 </div>`
