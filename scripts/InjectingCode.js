@@ -28,7 +28,7 @@ hexo.extend.injector.register('head_end', '<link href="https://cdn.bootcdn.net/a
 hexo.extend.injector.register('head_end', '<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script>LA.init({id: "JfwjQ8GfoR1mSU9L",ck: "JfwjQ8GfoR1mSU9L"})</script>', 'default');
 
 //底部
-/* hexo.extend.injector.register('body_end', `<footer style="background: var(--board-bg-color);margin: 0px 0px 0px 0px" id="colophon" class="site-footer" role="contentinfo">
+hexo.extend.injector.register('body_end', `<footer style="background: var(--board-bg-color);margin: 0px 0px 0px 0px" id="colophon" class="site-footer" role="contentinfo">
 <div  style="text-align: center;">
         <br/>
 
@@ -46,4 +46,4 @@ hexo.extend.injector.register('head_end', '<script charset="UTF-8" id="LA_COLLEC
                 © 2019-Present <a href="https://blog.hotpe.top/" target="_blank" class="class-link"  rel="noopener" >VirtualHotBar</a>
         </div>
 </div>
-</footer>`, 'default'); */
+</footer>`, 'default'); 
