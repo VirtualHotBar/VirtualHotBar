@@ -5,7 +5,7 @@ keywords: null
 author: VirtualHotBar
 language: zh-CN
 timezone: ''
-url: https://blog.hotpe.top
+url: https://www.loser.plus/
 permalink: posts/:abbrlink.html
 permalink_defaults: null
 pretty_urls:
@@ -59,7 +59,7 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: icarus
+theme: keep
 deploy:
   type: ''
 abbrlink:
