@@ -50,7 +50,7 @@ style:
     title_color:
       light: "#fff" # first screen title color (light mode)
       dark: "#323739" # first screen title color (dark mode)
-    description: "Why so serious?" # the title in the middle of the first screen
+    description: "最聪明的处世术是，既对世俗投以白眼，又与其同流合污。" # the title in the middle of the first screen
 
   # Scroll style settings
   scroll:

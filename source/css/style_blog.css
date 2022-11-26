@@ -1,0 +1,21 @@
+
+/* 链接美化 */
+.class-link{
+  color: #2DBAE8; 
+  text-decoration: none !important;
+  transition: opacity 0.1s ease;
+}
+.class-link:hover {
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+.class-link:visited {
+  text-decoration: none !important;
+}
+.class-link:active {
+  text-decoration: none !important;
+}
+.class-link[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
