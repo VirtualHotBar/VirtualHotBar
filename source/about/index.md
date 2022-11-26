@@ -1,6 +1,6 @@
 ---
 title: 关于
-comments: false
+comment: true
 ---
 
 ### 关于我

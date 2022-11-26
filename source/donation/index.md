@@ -1,6 +1,6 @@
 ---
-title: 投喂
-comments: 123
+title: '投喂'
+date: 2022-11-26 21:05:02
 ---
 
 <style>
@@ -13,7 +13,8 @@ color:var(--text-color);
 <h5 ><strong>为维持网站运行，请考虑用钱打我(bushi)。</strong></h5>
 <br/>
 
-<table id="recommendtable" class="table">
+
+<p><table style="text-align: center;">
 <thead>
 <tr>
 <th>微信支付</th>
@@ -23,12 +24,14 @@ color:var(--text-color);
 </thead>
 <tbody>
 <tr >
-<td ><img class="aligncenter" src="https://pic.imgdb.cn/item/630aea3716f2c2beb1294251.jpg" /></td>
-<td ><img class="aligncenter" src="https://pic.imgdb.cn/item/630aea6e16f2c2beb1295c1a.jpg" /></td>
-<td ><img class="aligncenter" src="https://pic.imgdb.cn/item/630aea8016f2c2beb129632a.jpg" /></td>
+<td ><img  style="text-align: center;" src="https://pic.imgdb.cn/item/630aea3716f2c2beb1294251.jpg" /></td>
+<td ><img  style="text-align: center;" src="https://pic.imgdb.cn/item/630aea6e16f2c2beb1295c1a.jpg" /></td>
+<td ><img  style="text-align: center;" src="https://pic.imgdb.cn/item/630aea8016f2c2beb129632a.jpg" /></td>
 </tr>
 </tbody>
-</table>
+</table></p>
+
+
 <p>感谢~</p>
 
 </div>
