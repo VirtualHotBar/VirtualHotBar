@@ -15,8 +15,6 @@ date: 2022-01-06 12:38:52
 
 HotVHDPE部署工具是由VirtualHotBar打造的一个将PE以VHD形式安装到U盘工具，完全开源，实现了VHDPE的安装部署。（将传统PE转换成VHDPE并安装） VHDPE具有加载速度快、断电可保存数据等特点
 
-<a></a>
-<!--more-->
 
 ### 技术支持
 

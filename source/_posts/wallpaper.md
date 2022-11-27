@@ -8,8 +8,6 @@ date: 2022-05-14 07:46:55
 cover: https://s1.myzwq.com/ctyun/picture/hotpe-wall/wall%20(6).jpg
 ---
 
-<a></a>
-<!--more-->
 
 提取自[HotPE](https://www.hotpe.top/)，分辨率1080P
 

@@ -9,11 +9,6 @@ date: 2020-07-25 23:13:59
 cover: https://i.hotpe.top/i/2022/05/01/12713h9-0.webp
 ---
 
-<a></a>
-<!--more-->
-
-
-
 ## 新版本
 
 HotPE工具箱2.2（win10x64网络）：[「HotPE工具箱」2.2版本功能介绍,给你清爽的安装维护环境--UP主自己制作的一个Win10PE！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1pB4y1g7cH) 

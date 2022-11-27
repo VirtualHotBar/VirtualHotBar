@@ -8,15 +8,9 @@ date: 2020-07-07 23:08:02
 #cover: https://i.hotpe.top/i/2022/05/02/ioipu5-0.webp
 ---
 
-
-
-
 非常简单的修改bootmgr的方法，网上大部分是用16进制编辑器（像winhex，C32Asm这些）来直接编辑bootmgr文件，这样的方法限制很大只能修改BOOT\\BCD中的CD两个字符。此方法可以很简单的编辑\\boot\\bcd中的任何字符。
  用到的工具： bootmgr的BCD路径工具（UP主自己制作的工具） 
 
-
-<a></a>
-<!--more-->
 
  下载地址:https://cloud.189.cn/t/eYfmEjVJbuIv
 

@@ -8,9 +8,6 @@ date: 2021-11-27 11:36:07
 cover: https://p2.myzwq.com/i/2022/11/13/637062fce0ddb.png
 ---
 
-<a></a>
-<!--more-->
-
 # HotTextPicture v1.1
 
 ## 介绍

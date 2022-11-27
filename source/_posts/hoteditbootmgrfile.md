@@ -7,14 +7,9 @@ abbrlink: 14714
 date: 2021-11-27 11:55:13
 #cover: https://i.hotpe.top/i/2022/05/02/j0x88c-0.jpg
 ---
-
-
 ### 介绍
 
 HotEditBootmgrFile是由VirtualHotBar打造的一个修改Bootmgr文件中BCD路径的小工具，实现了HotPE文件结构的个性化。
-
-<a></a>
-<!--more-->
 
 ### 下载
 
