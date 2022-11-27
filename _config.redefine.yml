@@ -124,7 +124,7 @@ code_copy:
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: true
+  enable: false
 
   # Automatically add list number to toc.
   number: false
@@ -220,9 +220,11 @@ pjax:
 # ---------------------------------------------------------------------------------------
 # Footer settings
 # ---------------------------------------------------------------------------------------
-footer:
+footer: 
+  upyun: true
   since: 2019 # the starting year of your website, Can be null
-  icp: # ICP record number of your website, Can be null
+  icp:  # ICP record number of your website, Can be null
+  moeicp: "萌ICP备20220247号"
 
 # ---------------------------------------------------------------------------------------
 # Redefine Theme version (Please don't modify)

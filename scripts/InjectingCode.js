@@ -30,36 +30,6 @@ hexo.extend.injector.register('head_end', '<script charset="UTF-8" id="LA_COLLEC
 
 //底部
 hexo.extend.injector.register('body_end', `
-<script>
-
-document.addEventListener('DOMContentLoaded', function () {
-    document.getElementsByTagName("footer")[0].innerHTML = \`
-<div  style="text-align: center;background: var(--code-background);margin: 0px 0px 0px 0px" >
-    <br/>
-
-    <a href="https://icp.gov.moe/?keyword=20220247" target="_blank" class="class-link"  rel="noopener" >萌ICP备20220247号</a>
-    <br/>
-    本网站由 <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" class="class-link"  rel="noopener" >又拍云</a> 提供CDN加速/云存储服务
-    <br/>       
-    <span id="RunTime" style=""></span>
-    <br/>
-
-    <span >访问人数<span id="busuanzi_value_site_uv"></span></span>
-    <span >总访问量&nbsp;<span id="busuanzi_value_site_pv"></span></span>
-
-    <div style="border-top: 1px solid rgba(0, 0, 0, 0.1);padding: 10px 10px 10px;">
-            © 2019-Present <a href="https://www.loser.plus/" target="_blank" class="class-link"  rel="noopener" >VirtualHotBar</a>
-    </div>
-</div>
-
-\`
-});
-
-
-
-
-</script>
-
 
 
 

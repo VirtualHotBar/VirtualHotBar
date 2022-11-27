@@ -692,16 +692,6 @@
     "open" "^7.0.0"
     "serve-static" "^1.14.1"
 
-"hexo-theme-landscape@^0.0.3":
-  "integrity" "sha512-b0Di+TUVs4ESrNX4ULEh9uQmADpO6kr10rIJ2OGZM8suNQNFKdxn+vJUjnLfKkCPJAfVmS7/S83KCNYe4tpoNw=="
-  "resolved" "https://registry.npmmirror.com/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz"
-  "version" "0.0.3"
-
-"hexo-theme-redefine@^0.3.3":
-  "integrity" "sha512-FuLOQ70baPnThJW5IQBc/d6g/hfv5HVC//9nsi42CRTkk/5cCWT+vGlXPGFNJ4YaYd2fDO5qgbE0qY391X0MhQ=="
-  "resolved" "https://registry.npmmirror.com/hexo-theme-redefine/-/hexo-theme-redefine-0.3.3.tgz"
-  "version" "0.3.3"
-
 "hexo-util@^2.0.0", "hexo-util@^2.4.0", "hexo-util@^2.5.0":
   "integrity" "sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ=="
   "resolved" "https://registry.npmmirror.com/hexo-util/-/hexo-util-2.7.0.tgz"

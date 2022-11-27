@@ -108,7 +108,3 @@ theme: redefine
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-
-#minifier 资源压缩
-all_minifier: true
