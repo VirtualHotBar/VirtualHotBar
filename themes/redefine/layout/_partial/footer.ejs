@@ -6,7 +6,7 @@
             <div class="icp-info info-item"><a target="_blank" rel="nofollow" href="https://beian.miit.gov.cn">
                     <%= theme.footer.icp %>
                 </a></div>
-            <% } %>
+        <% } %>
 
         <% if (theme.footer.hasOwnProperty('moeicp') && theme.footer.moeicp) { %>
             <div class="icp-info info-item"><a target="_blank" rel="nofollow" href="https://icp.gov.moe/">
@@ -15,10 +15,9 @@
         <% } %>
 
 
-        <% } %>
-        <% if (theme.footer.hasOwnProperty('RunTime') && theme.footer.RunTime) { %>
-            <span id="RunTime"></span>
-        <% } %>
+
+
+
 
 
 
@@ -37,15 +36,22 @@
                             </span>
                             <% } %>
             </div>
-            <% } %>
-                <% if (theme.footer.hasOwnProperty('upyun') && theme.footer.upyun) { %>
+        <% } %>
+
+
+<!--         <% if (theme.footer.hasOwnProperty('runtime') && theme.footer.runtime) { %>
+            <span id="RunTime"></span>
+        <% } %> -->
+
+
+        <% if (theme.footer.hasOwnProperty('upyun') && theme.footer.upyun) { %>
                     <div >
                         <a target="_blank" rel="nofollow"href="<%= theme.footer.upyun %>">本网站由
                             <img src="/images/upyun.png" alt="upyun" srcset="" height="24" style="position:relative; top:6px">
                             提供CDN加速/云存储服务
                         </a>
                     </div>
-            <% } %>
+        <% } %>
     </div>
     <div style="border-top: 1px solid rgba(0, 0, 0, 0.1);padding: 10px 10px 10px;">
         © <span><%= theme.footer.since %></span>-<%= date(new Date(), 'YYYY' ) %> <a href="https://www.loser.plus/" target="_blank" class="class-link"
