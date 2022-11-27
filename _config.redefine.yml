@@ -224,6 +224,7 @@ pjax:
 footer: 
   upyun: true
   since: 2019 # the starting year of your website, Can be null
+  RunTime: true
   icp:  # ICP record number of your website, Can be null
   moeicp: "萌ICP备20220247号"
 
