@@ -20,8 +20,6 @@ tag: 只注入到标签页面（is_tag() 为 true 的页面）
 
 hexo.extend.injector.register('head_end', '<link rel="stylesheet" href="/css/style_blog.css">', 'default');
 
-
-
 //font-awesome
 hexo.extend.injector.register('head_end', '<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.1.2/css/all.css" rel="stylesheet"></link>', 'default');
 
@@ -30,8 +28,5 @@ hexo.extend.injector.register('head_end', '<script charset="UTF-8" id="LA_COLLEC
 
 //底部
 hexo.extend.injector.register('body_end', `
-
-
-
 <script type="text/javascript" src="/js/main_blog.js"></script>
 `, 'default'); 
