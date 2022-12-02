@@ -125,7 +125,7 @@ code_copy:
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
   number: false
@@ -222,7 +222,7 @@ pjax:
 # Footer settings
 # ---------------------------------------------------------------------------------------
 footer: 
-  upyun: true
+  upyun: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
   since: 2019 # the starting year of your website, Can be null
   runtime: true
   icp:  # ICP record number of your website, Can be null
@@ -231,7 +231,7 @@ footer:
 # ---------------------------------------------------------------------------------------
 # Redefine Theme version (Please don't modify)
 # ---------------------------------------------------------------------------------------
-version: 0.3.3
+version: 0.3.4
 
 # Search
 ## See: https://github.com/theme-next/hexo-generator-searchdb

@@ -3,9 +3,9 @@
 window.addEventListener('DOMContentLoaded', () => {
 
   REDEFINE.themeInfo = {
-    theme: `VirtualHotBar's Blog v${REDEFINE.theme_config.version}`,
-    author: 'VirtualHotBar',
-    repository: 'https://github.com/VirtualHotBar'
+    theme: `Redefine v${REDEFINE.theme_config.version}`,
+    author: 'EvanNotFound',
+    repository: 'https://github.com/EvanNotFound/hexo-theme-redefine'
   }
 
   REDEFINE.localStorageKey = 'REDEFINE-THEME-STATUS';
@@ -63,7 +63,3 @@ window.addEventListener('DOMContentLoaded', () => {
   REDEFINE.printThemeInfo();
   REDEFINE.refresh();
 });
-
-
-
-

@@ -27,6 +27,4 @@ hexo.extend.injector.register('head_end', '<link href="https://cdn.bootcdn.net/a
 hexo.extend.injector.register('head_end', '<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script>LA.init({id: "JfwjQ8GfoR1mSU9L",ck: "JfwjQ8GfoR1mSU9L"})</script>', 'default');
 
 //底部
-hexo.extend.injector.register('body_end', `
-<script type="text/javascript" src="/js/main_blog.js"></script>
-`, 'default'); 
+hexo.extend.injector.register('body_end', `<script type="text/javascript" src="/js/main_blog.js"></script>`, 'default'); 
