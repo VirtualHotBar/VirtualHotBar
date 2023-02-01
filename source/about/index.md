@@ -15,7 +15,7 @@ QQ:3143771718
 B站:[UID443230923](https://space.bilibili.com/443230923) 
 Q群(粉丝群):810674075 
 Q群(HotPE):912384915 
-邮箱:hotbar@hotpe.top 
+邮箱:yyds_vhb@163.com
 无忧：[VirtualHotBar](http://bbs.c3.wuyou.net/home.php?mod=space&uid=831301) 
 Github：[VirtualHotBar](https://github.com/VirtualHotBar)
 
