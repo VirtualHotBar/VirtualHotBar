@@ -225,8 +225,7 @@ footer:
   upyun: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
   since: 2019 # the starting year of your website, Can be null
   runtime: true
-  icp:  # ICP record number of your website, Can be null
-  moeicp: "萌ICP备20220247号"
+  icp: 蜀ICP备2023001640号  # ICP record number of your website, Can be null
 
 # ---------------------------------------------------------------------------------------
 # Redefine Theme version (Please don't modify)
