@@ -1,0 +1,11 @@
+User-agent: *
+
+Allow: /
+Allow: /archives/
+Allow: /donation/
+Allow: /categories/
+Allow: /links/
+Allow: /about/
+
+Sitemap: https://blog.hotpe.top/baidusitemap.xml
+Sitemap: https://blog.hotpe.top/sitemap.xml
