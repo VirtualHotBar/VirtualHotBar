@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on [HotPEToolBoxs](https://github.com/VirtualHotBar/HotPEToolBox)
+- 🔭 I’m currently working on [HotPEToolBox](https://github.com/VirtualHotBar/HotPEToolBox)
 - 🌱 I’m currently learning web development
 - 🤔 I’m looking for help with [Wuyou](http://bbs.c3.wuyou.net/home.php?mod=space&uid=831301)
 - 📫 How to reach me: [Blog](https://www.loser.plus/)
