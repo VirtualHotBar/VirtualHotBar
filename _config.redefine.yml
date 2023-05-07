@@ -82,6 +82,7 @@ social_contact: # social contact icons in the first screen, you can add more by 
 # ---------------------------------------------------------------------------------------
 menu: #you can customize
   Home: /
+  "说说": /say
   Archives: /archives
   Categories: /categories
   "投喂": /donation
