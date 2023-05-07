@@ -2,7 +2,22 @@
   description: "一个纯净、强大、优雅的PE工具箱"
   link: "https://www.hotpe.top/"
   avatar: "https://www.hotpe.top/favicon.ico"
+  
+- name: "SysRi一键重装"
+  description: "纯净无捆绑，强大且易用"
+  link: "https://www.sysri.cn/"
+  avatar: "https://www.sysri.cn/favicon.ico"
 
+- name: "HotPic国内加速图床"
+  description: "一个免费，开放的国内加速图床"
+  link: "https://pic.hotpe.top/"
+  avatar: "https://pic.hotpe.top/favicon.ico"
+  
+- name: "HotPan网盘"
+  description: "自用网盘"
+  link: "https://pan.hotpe.top/"
+  avatar: "https://my-img.cc/i/2023/02/24/63f8ce2bf2528.png"
+  
 - name: "ChuYaoの小站"
   description: "我是神里绫华的狗！！！"
   link: "https://omowow.cn/"
