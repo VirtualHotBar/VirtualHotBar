@@ -1,11 +1,13 @@
 User-agent: *
 
+Allow: *
 Allow: /
 Allow: /archives/
 Allow: /donation/
 Allow: /categories/
 Allow: /links/
 Allow: /about/
+Allow: /say/
 
 Sitemap: https://blog.hotpe.top/baidusitemap.xml
 Sitemap: https://blog.hotpe.top/sitemap.xml
