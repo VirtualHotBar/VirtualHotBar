@@ -53,7 +53,8 @@ style:
     title_color:
       light: "#fff" # first screen title color (light mode)
       dark: "#323739" # first screen title color (dark mode)
-    description: "最聪明的处世术是，既对世俗投以白眼，又与其同流合污。" # the title in the middle of the first screen
+    description: "当你能从浪费时间中获得快乐时,就不算浪费时间。
+——罗素" # the title in the middle of the first screen
 
   # Scroll style settings
   scroll:
