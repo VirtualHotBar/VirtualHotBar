@@ -14,6 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+I am a developer and high school student.
+
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on [HotPEToolBox](https://github.com/VirtualHotBar/HotPEToolBox)
