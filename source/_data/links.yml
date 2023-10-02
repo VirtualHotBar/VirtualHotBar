@@ -5,8 +5,8 @@
   
 - name: "SysRi一键重装"
   description: "纯净无捆绑，强大且易用"
-  link: "https://www.sysri.cn/"
-  avatar: "https://www.sysri.cn/favicon.ico"
+  link: "https://sysri.cn/"
+  avatar: "https://sysri.cn/favicon.ico"
 
 - name: "HotPic国内加速图床"
   description: "一个免费，开放的国内加速图床"
