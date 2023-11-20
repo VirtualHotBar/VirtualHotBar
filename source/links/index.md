@@ -14,8 +14,8 @@ comment: true
 <p>申请信息：</p>
 <blockquote>
 <p>名称：VirtualHotBarの博客</p>
-<p>链接：<a target="_blank" rel="noopener" href="https://www.loser.plus/">https://blog.hotpe.top/</a></p>
+<p>链接：<a target="_blank" rel="noopener" href="https://blog.hotpe.top/">https://blog.hotpe.top/</a></p>
 <p>描述：一个极度普通的自留地</p>
-<p>图标：<a target="_blank" rel="noopener" href="https://www.loser.plus/img/logo.png">https://blog.hotpe.top/img/logo.png</a></p>
+<p>图标：<a target="_blank" rel="noopener" href="https://blog.hotpe.top/img/logo.png">https://blog.hotpe.top/img/logo.png</a></p>
 </blockquote>
 <p>填写好申请信息在此页下方留言就可以啦 😊</p>
