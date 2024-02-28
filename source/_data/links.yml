@@ -8,6 +8,11 @@
   link: "https://sysri.cn/"
   avatar: "https://sysri.cn/favicon.ico"
 
+- name: "WinNew"
+  description: "从微软服务器获取最新的Windows镜像"
+  link: "https://winnew.cn/"
+  avatar: "https://winnew.cn/favicon.ico"
+  
 - name: "HotPic国内加速图床"
   description: "一个免费，开放的国内加速图床"
   link: "https://pic.hotpe.top/"
