@@ -27,11 +27,6 @@
   description: "自用网盘"
   link: "https://pan.hotpe.top/"
   avatar: "https://p1.hotpe.top/i/p/1/65d45b410e888.png"
-  
-- name: "ChuYaoの小站"
-  description: "我是神里绫华的狗！！！"
-  link: "https://omowow.cn/"
-  avatar: "https://omowow.cn/icon.jpg"
 
 - name: "Inkdust’s Blog"
   description: "墨尘的博客，探索与无限折腾的集合"
@@ -56,12 +51,7 @@
 - name: "阿酷杂货铺"
   description: "优质互联网资源分享"
   link: "https://www.coolexe.com/"
-  avatar: "https://my-img.cc/i/2022/04/15/625975db9ddd7.png"
-
-- name: "绿野博客"
-  description: "以好奇心，探索世界！"
-  link: "https://blog.rzly.net/"
-  avatar: "https://api.rzly.net/pic/logo/blog/s.php"
+  avatar: "https://www.coolexe.com/favicon.ico"
 
 - name: "小权的探险日记"
   description: "一个无聊的人创了一个无聊的网站日记"
@@ -78,27 +68,22 @@
   link: "https://qingfengnb.cn/"
   avatar: "https://image.qingfengnb.cn/LightPicture/2023/07/50d39aeea489276c.jpg"
 
-- name: "Ra小小特の小站"
-  description: ""
-  link: "https://raxxt.top/"
-  avatar: "https://raxxt.top/assets/img/favicon.png"
-
-- name: "不知道叫什么の小窝"
-  description: "Your new world"
-  link: "https://www.bzdjsm.world/"
-  avatar: "https://www.bzdjsm.world/wp-content/uploads/2023/09/cropped-cropped-cropped-cropped-7ef69137343f36c4-300x300.jpg"
-
 - name: "czk 主站"
   description: ""
   link: "http://szczk.top/"
   avatar: "https://thirdqq.qlogo.cn/g?b=sdk&nk=251946192&s=140"
-  
-- name: "Pinpe 的云端"
-  description: "一个属于自己的云朵。"
-  link: "https://blog.pinpe.top/"
-  avatar: "https://p1.hotpe.top/i/p/1/656c4bafcf6dc.png"
 
 - name: "CowPE"
   description: "做纯净好用的PE"
   link: "https://cowpe.top/"
   avatar: "https://us-west-004-imgs.ccip.top/2024/02/19/65d332b5b8988.png"
+
+- name: "MeowLoli の 小窝"
+  description: "Heart Heart Heart"
+  link: "https://blog.aloli.icu/"
+  avatar: "https://blog.aloli.icu/usr/uploads/2024/05/2620975249.jpg"
+
+- name: "网联基地「WebUnion BASE」"
+  description: "云服务器评测,分享国内外VPS,网站服务器等最新优惠折扣信息"
+  link: "https://www.wubase.com/"
+  avatar: "https://www.wubase.com/favicon.png"
