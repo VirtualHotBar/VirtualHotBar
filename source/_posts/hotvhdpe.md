@@ -6,7 +6,7 @@ categories:
   - - 原创软件
 abbrlink: 37950
 date: 2022-01-06 12:38:52
-#cover: https://i.hotpe.top/i/2022/05/02/kfydxd-0.png
+#cover: https://p1.hotpe.top/i/2022/05/02/kfydxd-0.png
 ---
 
 
@@ -39,16 +39,16 @@ HotVHDPE部署工具会自动补齐引导文件并生成vhdx文件 采用双分�
 ### 使用
 
 打开HotVHDPE部署工具，选择U盘，选择WIM镜像的位置（以微PE为例），点击“开始部署”
- ![](https://i.hotpe.top/i/2022/05/02/kfydxd-0.png) 
+ ![](https://p1.hotpe.top/i/2022/05/02/kfydxd-0.png) 
 
 UEFI启动测试成功！
- ![](https://i.hotpe.top/i/2022/05/02/kfyfox-0.png) 
+ ![](https://p1.hotpe.top/i/2022/05/02/kfyfox-0.png) 
 
 Legacy启动测试成功！
- ![](https://i.hotpe.top/i/2022/05/02/kfyjl3-0.png) 
+ ![](https://p1.hotpe.top/i/2022/05/02/kfyjl3-0.png) 
 
 双分区：
- ![](https://i.hotpe.top/i/2022/05/02/kfyacs-0.png)
+ ![](https://p1.hotpe.top/i/2022/05/02/kfyacs-0.png)
 
 ### 下载
 

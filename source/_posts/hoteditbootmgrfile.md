@@ -5,7 +5,7 @@ categories:
   - - 原创软件
 abbrlink: 14714
 date: 2021-11-27 11:55:13
-#cover: https://i.hotpe.top/i/2022/05/02/j0x88c-0.jpg
+#cover: https://p1.hotpe.top/i/2022/05/02/j0x88c-0.jpg
 ---
 ### 介绍
 
@@ -17,7 +17,7 @@ https://www.lanzoui.com/itAUtwyjn2f
 
 ### 界面
 
-![](https://i.hotpe.top/i/2022/05/02/j07id3-0.webp) 
+![](https://p1.hotpe.top/i/2022/05/02/j07id3-0.webp) 
 ### 结构 
 有HotEditBootmgrFile.exe和HotEditBootmgrFile.dll文件
  正常使用打开HotEditBootmgrFile.exe就行。
@@ -41,6 +41,6 @@ HotEditBootmgrFile函数的参数：
 
 ### 运行结果
 
-![](https://i.hotpe.top/i/2022/05/02/j1hm2r-0.png)
+![](https://p1.hotpe.top/i/2022/05/02/j1hm2r-0.png)
 
 谢谢你的阅读，如果这篇文章帮助到了你，请收藏。如果没有帮助到你也可以收藏 可能以后会用到呢。

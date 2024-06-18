@@ -43,4 +43,4 @@ HotSysSetup是由VirtualHotBar打造的系统安装工具，追求强大、纯�
 
 欢迎下载使用
 
-[直链下载](https://s1.myzwq.com/ctyun/software/HotSysSetup_V2Beta.exe)
+[HotPE内置](https://www.hotpe.top/)

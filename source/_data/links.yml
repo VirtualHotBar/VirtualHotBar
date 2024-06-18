@@ -11,7 +11,7 @@
 - name: "SysRi一键重装"
   description: "纯净无捆绑，强大且易用"
   link: "https://sysri.cn/"
-  avatar: "https://sysri.cn/favicon.ico"
+  avatar: "https://sysri.cn/img/logo128.png"
 
 - name: "WinNew"
   description: "从微软服务器获取最新的Windows镜像"
@@ -46,7 +46,7 @@
 - name: "极客藏源"
   description: "认真应付，专心欠打"
   link: "https://www.gkcoll.xyz"
-  avatar: "https://z3.ax1x.com/2021/11/27/omr63V.png"
+  avatar: "https://www.gkcoll.xyz/favicon.ico"
 
 - name: "阿酷杂货铺"
   description: "优质互联网资源分享"
@@ -60,8 +60,8 @@
   
 - name: "JERRY Blog"
   description: ""
-  link: "https://www.lovepcsys.top/"
-  avatar: "https://www.lovepcsys.top/usr/themes/Cuckoo/assets/images/logo.jpg"
+  link: "https://blog.jerry.000708.xyz/"
+  avatar: "https://blog.jerry.000708.xyz/favicon.ico"
 
 - name: "轻风のBlog"
   description: "存活在互联网边缘的小博客"
@@ -69,7 +69,7 @@
   avatar: "https://image.qingfengnb.cn/LightPicture/2023/07/50d39aeea489276c.jpg"
 
 - name: "czk 主站"
-  description: ""
+  description: "梦里梦外，花开花落"
   link: "http://szczk.top/"
   avatar: "https://thirdqq.qlogo.cn/g?b=sdk&nk=251946192&s=140"
 

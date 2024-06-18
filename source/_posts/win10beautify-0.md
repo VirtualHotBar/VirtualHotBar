@@ -20,16 +20,16 @@ cover: https://p2.myzwq.com/i/2022/11/13/6370620a000d6.png
  TranslucentTB下载地址：TranslucentTB - Download (softonic.com)（也可以在Win10应用商店里下载） 
 
 下载后直接打开无须安装TranslucentTB就开启了透明效果
- ![](https://i.hotpe.top/i/2022/05/01/12bjla0-0.webp) 
+ ![](https://p1.hotpe.top/i/2022/05/01/12bjla0-0.webp) 
 
 注意：一定要打开 Open at boot Blur:模糊
- ![](https://i.hotpe.top/i/2022/05/01/12bjql9-0.webp)
+ ![](https://p1.hotpe.top/i/2022/05/01/12bjql9-0.webp)
 
  Clear:清晰
- ![](https://i.hotpe.top/i/2022/05/01/12bkccu-0.webp) 
+ ![](https://p1.hotpe.top/i/2022/05/01/12bkccu-0.webp) 
 
 Normal:正常
- ![](https://i.hotpe.top/i/2022/05/01/12bko3p-0.webp) 
+ ![](https://p1.hotpe.top/i/2022/05/01/12bko3p-0.webp) 
 
 菜单翻译 
 Blur:模糊 
@@ -47,17 +47,17 @@ Open at boot:开机自启
  安装就不多说了 下一步 下一步... 首先你需要在设置中开启透明 
 方法： 右键任务栏  选择任务栏设置
 
- ![](https://i.hotpe.top/i/2022/05/01/12blgku-0.webp)
+ ![](https://p1.hotpe.top/i/2022/05/01/12blgku-0.webp)
 
 选择颜色  将透明效果打开
- ![](https://i.hotpe.top/i/2022/05/01/12bm6zq-0.webp) 
+ ![](https://p1.hotpe.top/i/2022/05/01/12bm6zq-0.webp) 
 
 如何设置 
-![](https://i.hotpe.top/i/2022/05/01/12bmn0f-0.webp)
- ![](https://i.hotpe.top/i/2022/05/01/12bn7sj-0.webp)
+![](https://p1.hotpe.top/i/2022/05/01/12bmn0f-0.webp)
+ ![](https://p1.hotpe.top/i/2022/05/01/12bn7sj-0.webp)
 
  效果 
-![](https://i.hotpe.top/i/2022/05/01/12bnv1x-0.webp) 
+![](https://p1.hotpe.top/i/2022/05/01/12bnv1x-0.webp) 
 
 # 如果我有什么错误，没有说到的地方 欢迎在评论区纠正和补充
 

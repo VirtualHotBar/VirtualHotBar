@@ -12,10 +12,10 @@ cover: https://p2.myzwq.com/i/2022/11/13/6370617e4a837.png
 # 先看效果
 
 设置前： 
-![](https://i.hotpe.top/i/2022/05/02/i9lfwn.png) 
+![](https://p1.hotpe.top/i/2022/05/02/i9lfwn.png) 
 
 设置后：
- ![](https://i.hotpe.top/i/2022/05/02/i9nazh.png)
+ ![](https://p1.hotpe.top/i/2022/05/02/i9nazh.png)
 
 # 方法：
 
@@ -25,19 +25,19 @@ cover: https://p2.myzwq.com/i/2022/11/13/6370617e4a837.png
 noMeiryoUI字体修改工具：https://www.lanzoux.com/ifRNCfid91g
 
  1.安装字体，右键字体文件 选择安装。
- ![](https://i.hotpe.top/i/2022/05/02/i9wz0a.png)  
+ ![](https://p1.hotpe.top/i/2022/05/02/i9wz0a.png)  
 
  2.打开noMeiryoUI，点选择。
- ![](https://i.hotpe.top/i/2022/05/02/i9yz59.png)
+ ![](https://p1.hotpe.top/i/2022/05/02/i9yz59.png)
 
  3.选择刚才安装的字体，点确定。
- ![](https://i.hotpe.top/i/2022/05/02/i9zvlv.png)
+ ![](https://p1.hotpe.top/i/2022/05/02/i9zvlv.png)
 
    4.点应用。
- ![](https://i.hotpe.top/i/2022/05/02/ia1yqk.png) 
+ ![](https://p1.hotpe.top/i/2022/05/02/ia1yqk.png) 
 
 完成！！！
- ![](https://i.hotpe.top/i/2022/05/02/ia2o6r.png)
+ ![](https://p1.hotpe.top/i/2022/05/02/ia2o6r.png)
 
 # Win10美化历史：
 

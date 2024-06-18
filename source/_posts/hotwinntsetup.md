@@ -40,7 +40,7 @@ Hot WindowsNT Setup是由VirtualHotBar打造的Win7/8/10/11安装工具，追求
 
 下载时可能开始会卡一下，这是在申请磁盘空间（创建文件），等一会就好了，速度跟你的磁盘速度有关
 
-![](https://i.hotpe.top/i/2022/04/30/imlik5.png)
+![](https://p1.hotpe.top/i/2022/04/30/imlik5.png)
 
 **实用工具**
 

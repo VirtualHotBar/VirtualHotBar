@@ -36,36 +36,36 @@ cover: https://s1.ax1x.com/2022/11/04/xL5TIA.png
 
 以管理员运行WimTool，选择"新制和追加"选项卡 源目录选择bootres.dll解压出来修改后的logo文件夹，然后选择wim保存位置 压缩类型选择"最大压缩"，映像名称改为"Boot Resource WIM",然后点"新建映像"
 
- ![](https://i.hotpe.top/img/202208031448777.png) 
+ ![](https://p1.hotpe.top/img/202208031448777.png) 
 
 然后把.wim文件的后缀改为.bin 
 
-![](https://i.hotpe.top/img/202208031459013.png)
+![](https://p1.hotpe.top/img/202208031459013.png)
 
 #### 4.修改bootres.dll的资源
 
 管理员运行ResourceHacker，打开原版bootres.dll文件，替换RC 数据的第一个资源 
-![](https://i.hotpe.top/img/202208031455815.png) 
+![](https://p1.hotpe.top/img/202208031455815.png) 
 
 选择刚才的.bin文件，然后点替换 
-![](https://i.hotpe.top/img/202208031500609.png) 
+![](https://p1.hotpe.top/img/202208031500609.png) 
 
 Ctrl + S键保存
 
 #### 5.清除bootres.dll的数字签名
 
 管理员运行RemovePeSign，选择修改过后的bootres.dll文件，然后点"清除数字签名"
- ![](https://i.hotpe.top/img/202208031513665.png) 
+ ![](https://p1.hotpe.top/img/202208031513665.png) 
 
 生成的bootres.dll.nosign文件就是成品了，备份原版bootres.dll后替换就好了
- ![](https://i.hotpe.top/img/202208031516064.png)
+ ![](https://p1.hotpe.top/img/202208031516064.png)
 
 #### 6.修改系统BCD文件
 
 打开BOOTICE，选择"BCD 编辑"选项卡，然后点击"智能编辑模式"。 
-![](https://i.hotpe.top/img/202208031519266.png) 
+![](https://p1.hotpe.top/img/202208031519266.png) 
 
 将系统的"禁用数字签名验证"和"Win8 Metr启动界面"启用，保存
- ![](https://i.hotpe.top/img/202208031521145.png) 
+ ![](https://p1.hotpe.top/img/202208031521145.png) 
 
 大功告成 ！

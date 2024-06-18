@@ -6,7 +6,7 @@ categories:
   - - 原创软件
 abbrlink: 24223
 date: 2020-06-12 22:55:32
-cover: https://i.hotpe.top/i/2022/05/01/1190ttb-0.webp
+cover: https://p1.hotpe.top/i/2022/05/01/1190ttb-0.webp
 ---
 
 
@@ -32,15 +32,15 @@ UP主自己制作的一个PE工具箱 （包含DOS）
 
 ## 图片
 
-![](https://i.hotpe.top/i/2022/05/01/118wd4x-0.webp) 
+![](https://p1.hotpe.top/i/2022/05/01/118wd4x-0.webp) 
 
-![](https://i.hotpe.top/i/2022/05/01/118wqub-0.webp) 
+![](https://p1.hotpe.top/i/2022/05/01/118wqub-0.webp) 
 
-![](https://i.hotpe.top/i/2022/05/01/118x6s1-0.webp) 
+![](https://p1.hotpe.top/i/2022/05/01/118x6s1-0.webp) 
 
-![](https://i.hotpe.top/i/2022/05/01/118xt5r-0.webp)
+![](https://p1.hotpe.top/i/2022/05/01/118xt5r-0.webp)
 
  使用方法： 用UltraISO刻录在U盘或光盘里 开机进入bois设置成从U盘启动 启动PE 
 UltraISO下载地址：https://www.lanzoux.com/icaku2j
 
- ![](https://i.hotpe.top/i/2022/05/01/11909u4-0.webp)
+ ![](https://p1.hotpe.top/i/2022/05/01/11909u4-0.webp)
