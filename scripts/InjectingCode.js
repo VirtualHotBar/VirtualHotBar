@@ -18,10 +18,20 @@ category: 只注入到分类页面（is_category() 为 true 的页面）
 tag: 只注入到标签页面（is_tag() 为 true 的页面）
 或是其他自定义 layout 名称，例如在Fluid 主题中 about 对应关于页、links 对应友联页 */
 
+hexo.extend.injector.register('head_end', `
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ne6khuvu78");
+</script>`, 'default');
+
+
 hexo.extend.injector.register('head_end', '<link rel="stylesheet" href="/css/style_blog.css">', 'default');
 
 //font-awesome
-hexo.extend.injector.register('head_end', '<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.1.2/css/all.css" rel="stylesheet"></link>', 'default');
+hexo.extend.injector.register('head_end', '<link href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.css" rel="stylesheet"></link>', 'default');
 
 //51la统计
 hexo.extend.injector.register('head_end', '<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script>LA.init({id: "JfwjQ8GfoR1mSU9L",ck: "JfwjQ8GfoR1mSU9L"})</script>', 'default');
