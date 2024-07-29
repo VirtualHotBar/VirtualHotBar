@@ -19,6 +19,17 @@ tag: 只注入到标签页面（is_tag() 为 true 的页面）
 或是其他自定义 layout 名称，例如在Fluid 主题中 about 对应关于页、links 对应友联页 */
 
 hexo.extend.injector.register('head_end', `
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?63a536426a43debc4a900fefd918dc33";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>`, 'default');
+
+hexo.extend.injector.register('head_end', `
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
