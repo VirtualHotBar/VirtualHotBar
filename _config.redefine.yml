@@ -48,8 +48,8 @@ style:
   first_screen:
     enable: true
     background_image:
-      light: https://www.hotpe.top/API/RandomPic/MC # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
-      dark: https://www.hotpe.top/API/RandomPic/MC # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
+      light: https://www.hotpe.top/API/RandomPic/MC/ # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
+      dark: https://www.hotpe.top/API/RandomPic/MC/ # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
     title_color:
       light: "#fff" # first screen title color (light mode)
       dark: "#323739" # first screen title color (dark mode)
