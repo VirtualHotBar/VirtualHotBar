@@ -45,7 +45,7 @@ hexo.extend.injector.register('head_end', '<link rel="stylesheet" href="/css/sty
 hexo.extend.injector.register('head_end', '<link href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.css" rel="stylesheet"></link>', 'default');
 
 //51la统计
-hexo.extend.injector.register('head_end', '<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script>LA.init({id: "JfwjQ8GfoR1mSU9L",ck: "JfwjQ8GfoR1mSU9L"})</script>', 'default');
+//hexo.extend.injector.register('head_end', '<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script>LA.init({id: "JfwjQ8GfoR1mSU9L",ck: "JfwjQ8GfoR1mSU9L"})</script>', 'default');
 
 //底部
 hexo.extend.injector.register('body_end', `<script type="text/javascript" src="/js/main_blog.js"></script>`, 'default'); 
