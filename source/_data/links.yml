@@ -63,11 +63,6 @@
   link: "https://blog.jerry.000708.xyz/"
   avatar: "https://blog.jerry.000708.xyz/favicon.ico"
 
-- name: "轻风のBlog"
-  description: "存活在互联网边缘的小博客"
-  link: "https://qingfengnb.cn/"
-  avatar: "https://image.qingfengnb.cn/LightPicture/2023/07/50d39aeea489276c.jpg"
-
 - name: "czk 主站"
   description: "梦里梦外，花开花落"
   link: "http://szczk.top/"
@@ -77,11 +72,6 @@
   description: "做纯净好用的PE"
   link: "https://cowpe.top/"
   avatar: "https://us-west-004-imgs.ccip.top/2024/02/19/65d332b5b8988.png"
-
-- name: "MeowLoli の 小窝"
-  description: "Heart Heart Heart"
-  link: "https://blog.aloli.icu/"
-  avatar: "https://blog.aloli.icu/usr/uploads/2024/05/2620975249.jpg"
 
 - name: "网联基地「WebUnion BASE」"
   description: "云服务器评测,分享国内外VPS,网站服务器等最新优惠折扣信息"
