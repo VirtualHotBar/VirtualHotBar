@@ -43,11 +43,6 @@
   link: "https://yukaidi.top/"
   avatar: "https://yukaidi.top/favicon.ico"
 
-- name: "极客藏源"
-  description: "认真应付，专心欠打"
-  link: "https://www.gkcoll.xyz"
-  avatar: "https://www.gkcoll.xyz/favicon.ico"
-
 - name: "阿酷杂货铺"
   description: "优质互联网资源分享"
   link: "https://www.coolexe.com/"
@@ -66,7 +61,7 @@
 - name: "czk 主站"
   description: "梦里梦外，花开花落"
   link: "http://szczk.top/"
-  avatar: "https://thirdqq.qlogo.cn/g?b=sdk&nk=251946192&s=140"
+  avatar: "https://www.szczk.top/icon.php"
 
 - name: "CowPE"
   description: "做纯净好用的PE"
