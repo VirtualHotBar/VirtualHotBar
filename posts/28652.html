@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="baidu-site-verification" content="codeva-rpYGEJxKGJ" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    <meta name="description" content="一个极度普通的自留地">
+    <meta name="author" content="VirtualHotBar">
+    
+    <title>
+        
+            教程——动态磁盘与基本磁盘互相转换方法 |
+        
+        VirtualHotBarの博客
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+<link rel="stylesheet" href="/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/css/v5-font-face.min.css">
+
+    
+<link rel="stylesheet" href="/css/duotone.min.css">
+
+    
+<link rel="stylesheet" href="/css/brands.min.css">
+
+    
+<link rel="stylesheet" href="/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/css/brands.min.css">
+
+    
+<link rel="stylesheet" href="/css/css2.css">
+
+    <link rel="preconnect" href="//cdn.iocdn.cc" crossorigin>
+    <script id="hexo-configurations">
+    let REDEFINE = window.REDEFINE || {};
+    REDEFINE.hexo_config = {"hostname":"blog.hotpe.top","root":"/","language":"zh-CN","path":"search.json"};
+    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#E8608D","avatar":"/favicon.ico","favicon":"/favicon.ico","article_img_align":"center","left_side_width":"240px","content_max_width":"960px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://www.hotpe.top/API/RandomPic/MC/","dark":"https://www.hotpe.top/API/RandomPic/MC/"},"title_color":{"light":"#fff","dark":"#323739"},"description":"当你能从浪费时间中获得快乐时,就不算浪费时间。 ——罗素"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":true,"preload":true},"code_copy":{"enable":true},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"0.3.4"};
+    REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+  </script>
+<!-- hexo injector head_end start -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?63a536426a43debc4a900fefd918dc33";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ne6khuvu78");
+</script><link rel="stylesheet" href="/css/style_blog.css"><link href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.css" rel="stylesheet"></link><!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.2"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fas fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+    
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/favicon.ico">
+                </a>
+            
+            <a class="logo-title" href="/">
+                VirtualHotBarの博客
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/say"
+                            >
+                                说说
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/donation"
+                            >
+                                投喂
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/links"
+                            >
+                                友链
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/say">说说</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/donation">投喂</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/links">友链</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation"><h1 style="font-size:2rem; font-weight: bold; margin: 10px 0;">教程——动态磁盘与基本磁盘互相转换方法</h1></span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/favicon.ico">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">VirtualHotBar</span>
+                        
+                            <span class="author-label">博主</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-duotone fa-pen-line"></i>&nbsp;
+        <span class="pc">2020-03-26 22:18:22</span>
+        <span class="mobile">2020-03-26 22:18</span>
+    </span>
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-duotone fa-folder-open"></i></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E6%95%99%E7%A8%8B/">教程</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <p><strong>Win 2000 XP 2003 2008 Vista 7上可以容易地将基本磁盘转换成动态磁盘</strong><br><strong>但动态磁盘转基本磁盘就很难</strong><br> <strong>虽然动态磁盘可以很方便的管理分区但是动态磁盘的缺点也有很多：</strong></p>
+<ol>
+<li><p> <strong>在动态磁盘无法安装Win7 Vista 2008系统</strong></p>
+</li>
+<li><p> <strong>一些软件不支持动态磁盘，比如Ghost</strong></p>
+</li>
+<li><p> <strong>Windows家庭版无法使用动态磁盘（就是不能写数据，也不能读数据 显示成无效状态）</strong></p>
+</li>
+<li><p> <strong>有些时候动态磁盘突然变成不可读状态</strong></p>
+</li>
+</ol>
+<h1 id="基本磁盘转动态磁盘："><a href="#基本磁盘转动态磁盘：" class="headerlink" title="基本磁盘转动态磁盘："></a>基本磁盘转动态磁盘：</h1><p>首先进入磁盘管理: 右键计算机 选择管理 选择磁盘管理 或者右 键开始菜单选择磁盘管理<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/i/2022/05/01/10i1sxx-0.webp"
+                     
+                > </p>
+<p>如果还不会看视频教程:<a target="_blank" rel="noopener" href="//www.bilibili.com/video/BV1bE411P7Ji?from=articleDetail">BV1bE411P7Ji</a><br>进入磁盘管理以后     右键 要转换的磁盘    选择 ‘转换到动态磁盘’<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/i/2022/05/01/10j8txl-0.webp"
+                     
+                > </p>
+<p>选择要转换的磁盘，我的电脑只有一块磁盘–磁盘0；  如果是多块磁盘就勾选要转换的磁盘 ；然后点确定<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/i/2022/05/01/10jvob8-0.webp"
+                     
+                > </p>
+<p>然后点 转换<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/i/2022/05/01/10k126f-0.webp"
+                     
+                ><br>然后 点 是 <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/i/2022/05/01/10kgodm-0.webp"
+                     
+                > </p>
+<p>现在就已经转换成动态磁盘了<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/i/2022/05/01/10kl54h-0.webp"
+                     
+                > </p>
+<p>如果报错 私信我</p>
+<h1 id="动态磁盘转基本磁盘："><a href="#动态磁盘转基本磁盘：" class="headerlink" title="动态磁盘转基本磁盘："></a><strong>动态磁盘转基本磁盘：</strong></h1><p>首先下载 动态磁盘转换器3.2 <br>下载地址：<a class="link"   target="_blank" rel="noopener" href="http://www2.aomeisoftware.com/download/ddccn/DDC/_CN.exe" >http://www2.aomeisoftware.com/download/ddccn/DDC\_CN.exe<i class="fas fa-external-link-alt"></i></a><br>下载好后安装 安装过程，一路下一步：<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/i/2022/05/01/10pqg3n-0.png"
+                     
+                > </p>
+<p>安装好以后程序会自动打开，按照下图操作<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/i/2022/05/01/10pymg6-0.png"
+                     
+                ></p>
+<p> 重启以后 动态磁盘就转为基本磁盘了<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/i/2022/05/01/10nhoat-0.webp"
+                     
+                ></p>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>本文标题：教程——动态磁盘与基本磁盘互相转换方法</li>
+        <li>本文作者：VirtualHotBar</li>
+        <li>创建时间：2020-03-26 22:18:22</li>
+        <li>
+            本文链接：https://blog.hotpe.top/posts/28652.html
+        </li>
+        <li>
+            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                           rel="prev"
+                           href="/posts/24223.html"
+                        >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">DSPE工具箱1.2——给你清爽的安装维护环境，UP主自己制作的一个PE工具箱 支持nvme</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/posts/7897.html"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">MC常用原版指令分享</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+            <div class="comment-container">
+                <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fas fa-comments">&nbsp;评论</i>
+    </div>
+    
+
+        
+            
+    <div class="twikoo-container">
+        <script data-pjax
+                src="//cdn.iocdn.cc/npm/twikoo@1.6.38/dist/twikoo.all.min.js"
+        ></script>
+        <div id="twikoo-comment"></div>
+        <script data-pjax>
+            function loadTwikoo() {
+                twikoo.init({
+                    el: '#twikoo-comment',
+                    envId: 'https://twikoo.hotpe.top/',
+                    /*region: '',*/
+                });
+            }
+
+            if ('true') {
+                const loadTwikooTimeout = setTimeout(() => {
+                    loadTwikoo();
+                    clearTimeout(loadTwikooTimeout);
+                }, 1000);
+            } else {
+                window.addEventListener('DOMContentLoaded', loadTwikoo);
+            }
+        </script>
+    </div>
+
+
+        
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer" id="footer" style="background: var(--background-color);text-align: center;">
+    <div class="info-container">
+        <br/>
+        
+        
+            <div class="icp-info info-item"><a target="_blank" rel="nofollow" href="https://beian.miit.gov.cn">
+                    蜀ICP备2023001640号-1
+                </a></div>
+        
+
+        
+
+
+
+
+
+
+
+
+        
+            <script async data-pjax src = "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv">
+                        访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                    </span>
+                    
+                        
+                            <span id="busuanzi_container_site_pv">
+                                总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                            </span>
+                            
+            </div>
+        
+
+
+<!--         
+            <span id="RunTime"></span>
+         -->
+
+
+        
+                    <div >
+                        <a target="_blank" rel="nofollow"href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral">本网站由
+                            <img src="/images/upyun.png" alt="upyun" srcset="" height="24" style="position:relative; top:6px">
+                            提供CDN加速/云存储服务
+                        </a>
+                    </div>
+        
+    </div>
+    <div style="border-top: 1px solid rgba(0, 0, 0, 0.1);padding: 10px 10px 10px;">
+        © <span>2019</span>-2025 <a href="https://blog.hotpe.top/" target="_blank" class="class-link"
+            rel="noopener">VirtualHotBar</a>
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fa-duotone fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-duotone fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div style="font-size: 1.3rem;margin-top: 0; margin-bottom: 0.8rem; transition-duration: 0.1s;"><i class="fa-solid fa-list"></i> <strong>目录</strong></div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E7%A3%81%E7%9B%98%E8%BD%AC%E5%8A%A8%E6%80%81%E7%A3%81%E7%9B%98%EF%BC%9A"><span class="nav-text">基本磁盘转动态磁盘：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8A%A8%E6%80%81%E7%A3%81%E7%9B%98%E8%BD%AC%E5%9F%BA%E6%9C%AC%E7%A3%81%E7%9B%98%EF%BC%9A"><span class="nav-text">动态磁盘转基本磁盘：</span></a></li></ol>
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-copy.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/left-side-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/toc.js"></script>
+
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            REDEFINE.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            REDEFINE.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            REDEFINE.refresh();
+        });
+    });
+</script>
+
+
+
+<!-- hexo injector body_end start --><script type="text/javascript" src="/js/main_blog.js"></script><!-- hexo injector body_end end --></body>
+</html>

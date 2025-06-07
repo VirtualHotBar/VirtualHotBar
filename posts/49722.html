@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="baidu-site-verification" content="codeva-rpYGEJxKGJ" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    <meta name="description" content="一个极度普通的自留地">
+    <meta name="author" content="VirtualHotBar">
+    
+    <title>
+        
+            「技术实践」Legacy启动模式下修改开机Logo，Win7+ |
+        
+        VirtualHotBarの博客
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+<link rel="stylesheet" href="/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/css/v5-font-face.min.css">
+
+    
+<link rel="stylesheet" href="/css/duotone.min.css">
+
+    
+<link rel="stylesheet" href="/css/brands.min.css">
+
+    
+<link rel="stylesheet" href="/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/css/brands.min.css">
+
+    
+<link rel="stylesheet" href="/css/css2.css">
+
+    <link rel="preconnect" href="//cdn.iocdn.cc" crossorigin>
+    <script id="hexo-configurations">
+    let REDEFINE = window.REDEFINE || {};
+    REDEFINE.hexo_config = {"hostname":"blog.hotpe.top","root":"/","language":"zh-CN","path":"search.json"};
+    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#E8608D","avatar":"/favicon.ico","favicon":"/favicon.ico","article_img_align":"center","left_side_width":"240px","content_max_width":"960px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://www.hotpe.top/API/RandomPic/MC/","dark":"https://www.hotpe.top/API/RandomPic/MC/"},"title_color":{"light":"#fff","dark":"#323739"},"description":"当你能从浪费时间中获得快乐时,就不算浪费时间。 ——罗素"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":true,"preload":true},"code_copy":{"enable":true},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"0.3.4"};
+    REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+  </script>
+<!-- hexo injector head_end start -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?63a536426a43debc4a900fefd918dc33";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ne6khuvu78");
+</script><link rel="stylesheet" href="/css/style_blog.css"><link href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.css" rel="stylesheet"></link><!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.2"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fas fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+    
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/favicon.ico">
+                </a>
+            
+            <a class="logo-title" href="/">
+                VirtualHotBarの博客
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/say"
+                            >
+                                说说
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/donation"
+                            >
+                                投喂
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/links"
+                            >
+                                友链
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/say">说说</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/donation">投喂</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/links">友链</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation"><h1 style="font-size:2rem; font-weight: bold; margin: 10px 0;">「技术实践」Legacy启动模式下修改开机Logo，Win7+</h1></span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/favicon.ico">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">VirtualHotBar</span>
+                        
+                            <span class="author-label">博主</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-duotone fa-pen-line"></i>&nbsp;
+        <span class="pc">2022-08-03 15:29:07</span>
+        <span class="mobile">2022-08-03 15:29</span>
+    </span>
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-duotone fa-folder-open"></i></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E6%95%99%E7%A8%8B/">教程</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-duotone fa-tags"></i></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/logo%E4%BF%AE%E6%94%B9/">logo修改</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <p>实现于HotPE2.4Final，体验链接：<a class="link"   target="_blank" rel="noopener" href="https://www.hotpe.top/" >https://www.hotpe.top/<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><p>7Zip下载:<a class="link"   target="_blank" rel="noopener" href="https://sparanoid.com/lab/7z/" >https://sparanoid.com/lab/7z/<i class="fas fa-external-link-alt"></i></a> </p>
+<p>其他工具下载：<a class="link"   target="_blank" rel="noopener" href="https://wwp.lanzouj.com/iQHRj08x1wxi" >https://wwp.lanzouj.com/iQHRj08x1wxi<i class="fas fa-external-link-alt"></i></a> 密码:g1v4</p>
+<h4 id="1-提取原版bootres-dll文件中的logo文件"><a href="#1-提取原版bootres-dll文件中的logo文件" class="headerlink" title="1.提取原版bootres.dll文件中的logo文件"></a>1.提取原版bootres.dll文件中的logo文件</h4><p>找到启动分区下的\Boot\Resources\bootres.dll文件，然后用7zip解压。如果权限不够就在PE里操作。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.ax1x.com/2022/11/04/xLIry8.md.png"
+                     
+                > </p>
+<p>解压后就看到开机Logo了<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.ax1x.com/2022/11/04/xLIcwQ.md.png"
+                     
+                ></p>
+<h4 id="2-修改图片"><a href="#2-修改图片" class="headerlink" title="2.修改图片"></a>2.修改图片</h4><p>修改logo图片，注意图片的格式和大小，用图画或ps都行。修改后的效果：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s1.ax1x.com/2022/08/03/vVzsTx.png"
+                     
+                ></p>
+<h4 id="3-将logo图片打包为bin文件"><a href="#3-将logo图片打包为bin文件" class="headerlink" title="3.将logo图片打包为bin文件"></a>3.将logo图片打包为bin文件</h4><p>以管理员运行WimTool，选择”新制和追加”选项卡 源目录选择bootres.dll解压出来修改后的logo文件夹，然后选择wim保存位置 压缩类型选择”最大压缩”，映像名称改为”Boot Resource WIM”,然后点”新建映像”</p>
+<p> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/img/202208031448777.png"
+                     
+                > </p>
+<p>然后把.wim文件的后缀改为.bin </p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/img/202208031459013.png"
+                     
+                ></p>
+<h4 id="4-修改bootres-dll的资源"><a href="#4-修改bootres-dll的资源" class="headerlink" title="4.修改bootres.dll的资源"></a>4.修改bootres.dll的资源</h4><p>管理员运行ResourceHacker，打开原版bootres.dll文件，替换RC 数据的第一个资源<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/img/202208031455815.png"
+                     
+                > </p>
+<p>选择刚才的.bin文件，然后点替换<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/img/202208031500609.png"
+                     
+                > </p>
+<p>Ctrl + S键保存</p>
+<h4 id="5-清除bootres-dll的数字签名"><a href="#5-清除bootres-dll的数字签名" class="headerlink" title="5.清除bootres.dll的数字签名"></a>5.清除bootres.dll的数字签名</h4><p>管理员运行RemovePeSign，选择修改过后的bootres.dll文件，然后点”清除数字签名”<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/img/202208031513665.png"
+                     
+                > </p>
+<p>生成的bootres.dll.nosign文件就是成品了，备份原版bootres.dll后替换就好了<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/img/202208031516064.png"
+                     
+                ></p>
+<h4 id="6-修改系统BCD文件"><a href="#6-修改系统BCD文件" class="headerlink" title="6.修改系统BCD文件"></a>6.修改系统BCD文件</h4><p>打开BOOTICE，选择”BCD 编辑”选项卡，然后点击”智能编辑模式”。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/img/202208031519266.png"
+                     
+                > </p>
+<p>将系统的”禁用数字签名验证”和”Win8 Metr启动界面”启用，保存<br> <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1.hotpe.top/img/202208031521145.png"
+                     
+                > </p>
+<p>大功告成 ！</p>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>本文标题：「技术实践」Legacy启动模式下修改开机Logo，Win7+</li>
+        <li>本文作者：VirtualHotBar</li>
+        <li>创建时间：2022-08-03 15:29:07</li>
+        <li>
+            本文链接：https://blog.hotpe.top/posts/49722.html
+        </li>
+        <li>
+            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/logo%E4%BF%AE%E6%94%B9/">#logo修改</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                           rel="prev"
+                           href="/posts/33747.html"
+                        >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">HotSysSetup 一个强大、纯净、轻巧的系统装机工具。</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/posts/8753.html"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">HotPE2.4正式版发布 11PE，可扩展，支持网络、深度个性化，纯净、强大、优雅。</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+            <div class="comment-container">
+                <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fas fa-comments">&nbsp;评论</i>
+    </div>
+    
+
+        
+            
+    <div class="twikoo-container">
+        <script data-pjax
+                src="//cdn.iocdn.cc/npm/twikoo@1.6.38/dist/twikoo.all.min.js"
+        ></script>
+        <div id="twikoo-comment"></div>
+        <script data-pjax>
+            function loadTwikoo() {
+                twikoo.init({
+                    el: '#twikoo-comment',
+                    envId: 'https://twikoo.hotpe.top/',
+                    /*region: '',*/
+                });
+            }
+
+            if ('true') {
+                const loadTwikooTimeout = setTimeout(() => {
+                    loadTwikoo();
+                    clearTimeout(loadTwikooTimeout);
+                }, 1000);
+            } else {
+                window.addEventListener('DOMContentLoaded', loadTwikoo);
+            }
+        </script>
+    </div>
+
+
+        
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer" id="footer" style="background: var(--background-color);text-align: center;">
+    <div class="info-container">
+        <br/>
+        
+        
+            <div class="icp-info info-item"><a target="_blank" rel="nofollow" href="https://beian.miit.gov.cn">
+                    蜀ICP备2023001640号-1
+                </a></div>
+        
+
+        
+
+
+
+
+
+
+
+
+        
+            <script async data-pjax src = "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv">
+                        访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                    </span>
+                    
+                        
+                            <span id="busuanzi_container_site_pv">
+                                总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                            </span>
+                            
+            </div>
+        
+
+
+<!--         
+            <span id="RunTime"></span>
+         -->
+
+
+        
+                    <div >
+                        <a target="_blank" rel="nofollow"href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral">本网站由
+                            <img src="/images/upyun.png" alt="upyun" srcset="" height="24" style="position:relative; top:6px">
+                            提供CDN加速/云存储服务
+                        </a>
+                    </div>
+        
+    </div>
+    <div style="border-top: 1px solid rgba(0, 0, 0, 0.1);padding: 10px 10px 10px;">
+        © <span>2019</span>-2025 <a href="https://blog.hotpe.top/" target="_blank" class="class-link"
+            rel="noopener">VirtualHotBar</a>
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fa-duotone fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-duotone fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div style="font-size: 1.3rem;margin-top: 0; margin-bottom: 0.8rem; transition-duration: 0.1s;"><i class="fa-solid fa-list"></i> <strong>目录</strong></div>
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A5%E9%AA%A4"><span class="nav-text">步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E6%8F%90%E5%8F%96%E5%8E%9F%E7%89%88bootres-dll%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84logo%E6%96%87%E4%BB%B6"><span class="nav-text">1.提取原版bootres.dll文件中的logo文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E4%BF%AE%E6%94%B9%E5%9B%BE%E7%89%87"><span class="nav-text">2.修改图片</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%B0%86logo%E5%9B%BE%E7%89%87%E6%89%93%E5%8C%85%E4%B8%BAbin%E6%96%87%E4%BB%B6"><span class="nav-text">3.将logo图片打包为bin文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E4%BF%AE%E6%94%B9bootres-dll%E7%9A%84%E8%B5%84%E6%BA%90"><span class="nav-text">4.修改bootres.dll的资源</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-%E6%B8%85%E9%99%A4bootres-dll%E7%9A%84%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D"><span class="nav-text">5.清除bootres.dll的数字签名</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-%E4%BF%AE%E6%94%B9%E7%B3%BB%E7%BB%9FBCD%E6%96%87%E4%BB%B6"><span class="nav-text">6.修改系统BCD文件</span></a></li></ol></li></ol>
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-copy.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/left-side-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/toc.js"></script>
+
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            REDEFINE.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            REDEFINE.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            REDEFINE.refresh();
+        });
+    });
+</script>
+
+
+
+<!-- hexo injector body_end start --><script type="text/javascript" src="/js/main_blog.js"></script><!-- hexo injector body_end end --></body>
+</html>
